@@ -2,7 +2,7 @@
 In the Manifest file, specify buildpack: https://github.com/predix/edge-manager-java-buildpack.git#<BRANCH> eg v4.9-appd_ver4.3.7.2  
 OR pass in buildpack information with 
 ```
-cf push -f manifest.yml -b github.com/predix/edge-manager-java-buildpack.git#<BRANCH> eg v4.9-appd_ver4.3.7.2 
+cf push -f manifest.yml -b https://github.com/predix/edge-manager-java-buildpack.git#<BRANCH> eg v4.9-appd_ver4.3.7.2 
 ```
 
 # Cloud Foundry Java Buildpack
