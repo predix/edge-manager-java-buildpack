@@ -1,8 +1,8 @@
 # TO USE THIS BUILDPACK FOR EDGE MANAGER SERVICES
-In the Manifest file, specify buildpack: https://github.com/???.git#<BRANCH> eg v3.19-appd_ver4.5.2.2426 
+In the Manifest file, specify buildpack: https://github.com/edge-manager-java-buildpack.git#<BRANCH> eg v3.19-appd_ver4.5.2.24246 
 OR pass in buildpack information with 
 ```
-cf push -f manifest.yml -b github.com/???.git#<BRANCH> eg v3.19-appd_ver4.5.2.2426
+cf push -f manifest.yml -b github.com/edge-manager-java-buildpack.git#<BRANCH> eg v3.19-appd_ver4.5.2.24246
 ```
 
 # Cloud Foundry Java Buildpack
