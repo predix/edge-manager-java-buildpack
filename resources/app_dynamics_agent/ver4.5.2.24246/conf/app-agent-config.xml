@@ -81,32 +81,16 @@
         -->
 
         <sensitive-data-filter applies-to="jmx-mbeans"
-                               match-type="CONTAINS"
+                               match-type="REGEX"
                                match-pattern="username"/>
 
         <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
-                               match-pattern="password"/>
+                               match-type="REGEX"
+                               match-pattern=".*"/>
 
-        <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
+        <sensitive-data-filter applies-to="environment-variables,system-properties"
+                               match-type="REGEX"
                                match-pattern="key"/>
-
-        <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
-                               match-pattern="secret"/>
-
-        <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
-                               match-pattern="vcap_services"/>
-
-        <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
-                               match-pattern="database_url"/>
-
-        <sensitive-data-filter applies-to="environment-variables,system-properties,jmx-mbeans"
-                               match-type="CONTAINS"
-                               match-pattern="nurego"/>
 
     </sensitive-data-filters>
 
