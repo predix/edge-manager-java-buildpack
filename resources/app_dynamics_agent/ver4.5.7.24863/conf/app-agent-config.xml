@@ -656,7 +656,7 @@
 
                 <!-- Thread dump logger output, can be set to 'log4j' or 'file' logger. If file, the output is written to thread-dump.log,
                 default is log4j, log4j file name can be changed through log4j.xml change -->
-                <!-- <property name="thread-dump-logger" value="log4j"/> -->
+                <property name="thread-dump-logger" value="log4j"/>
 
                 <!-- Enables shutdown hook for JVM, default is false, uncomment to enable it. The shutdown log file is written
                 to logs/jvm-shutdown.log file with Current JVM memory status and dump for all threads.
